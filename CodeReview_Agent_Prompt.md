@@ -79,9 +79,9 @@ codereview-agent/
 
 > **Update this section each time you start a new session or complete a phase.**
 
-- **Phase currently working on:** Phase 4 — Review Writer + Human-in-the-Loop
-- **Last completed checkpoint:** Phase 3 completed. Docker sandbox implemented and passing tests with `network_mode="bridge"` to allow dynamic dependency installation. 
-- **Next checkpoint to hit:** Graph pauses at interrupt, resumes on Command, review appears on GitHub PR.
+- **Phase currently working on:** Phase 6 — Next.js Dashboard
+- **Last completed checkpoint:** Phase 5 completed. FastAPI server implemented with webhook signature verification, `BackgroundTasks` for graph execution, and REST endpoints for the dashboard. Added exponential backoff to `review_writer` to handle Gemini free-tier rate limits. 
+- **Next checkpoint to hit:** Full end-to-end — open PR on GitHub → review appears in dashboard → click Approve → review posted to GitHub PR.
 
 ---
 
