@@ -79,9 +79,9 @@ codereview-agent/
 
 > **Update this section each time you start a new session or complete a phase.**
 
-- **Phase currently working on:** Phase 3 — Docker Sandboxed Test Runner
-- **Last completed checkpoint:** Parallel security & logic agents implemented and tested via test_phase2.py. LangGraph properly routing and merging state (Phase 2 complete).
-- **Next checkpoint to hit:** `test_runner_node()` returns pytest output from a local repo. Confirm network mode none.
+- **Phase currently working on:** Phase 4 — Review Writer + Human-in-the-Loop
+- **Last completed checkpoint:** Phase 3 completed. Docker sandbox implemented and passing tests with `network_mode="bridge"` to allow dynamic dependency installation. 
+- **Next checkpoint to hit:** Graph pauses at interrupt, resumes on Command, review appears on GitHub PR.
 
 ---
 
