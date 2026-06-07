@@ -79,9 +79,9 @@ codereview-agent/
 
 > **Update this section each time you start a new session or complete a phase.**
 
-- **Phase currently working on:** Phase 6 — Next.js Dashboard
-- **Last completed checkpoint:** Phase 5 completed. FastAPI server implemented with webhook signature verification, `BackgroundTasks` for graph execution, and REST endpoints for the dashboard. Added exponential backoff to `review_writer` to handle Gemini free-tier rate limits. 
-- **Next checkpoint to hit:** Full end-to-end — open PR on GitHub → review appears in dashboard → click Approve → review posted to GitHub PR.
+- **Phase currently working on:** 🎉 **Project Complete!** 🎉
+- **Last completed checkpoint:** Phase 6 completed. Next.js dashboard implemented with shadcn/ui. Built `app/page.tsx` for the reviews list and `app/reviews/[threadId]/page.tsx` for the interactive human-in-the-loop approval UI. End-to-end integration with FastAPI backend is ready.
+- **Next checkpoint to hit:** N/A (Run the servers and open a GitHub PR to test end-to-end!)
 
 ---
 
