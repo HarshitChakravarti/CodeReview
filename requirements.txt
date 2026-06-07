@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-google-genai
+langchain-community
+gitpython
+PyGithub
+fastapi
+uvicorn
+python-dotenv
+docker
+tenacity
+rich
