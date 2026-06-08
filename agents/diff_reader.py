@@ -2,6 +2,7 @@ import tempfile
 import git
 import os
 from typing import List
+import numpy
 
 def parse_diff_by_file(raw_diff: str) -> List[dict]:
     # We split the raw diff string by 'diff --git' to isolate changes for each file.
